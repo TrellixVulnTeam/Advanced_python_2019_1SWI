@@ -33,15 +33,7 @@ try:
     while True:
         client, address = sock.accept()
         
-        b_request = client.recv(buffersize)
-        request = json.loads(b_request.decode(encoding))
-        
-        action_name = request.get('action')
-
-        # if action_name == 'echo':
-        #     pass
-        # elif action_name:
-
+        data = client.recv(buffersize)
 
         client.send(data)
         client.close()
