@@ -28,7 +28,7 @@ def _deactivate(args):
 _deactivate(["nondestructive"])
 aliases["deactivate"] = _deactivate
 
-$VIRTUAL_ENV = r"/Users/rudev/Desktop/Advanced_python_2019/venv"
+$VIRTUAL_ENV = r"/Users/rudevelooper/Desktop/Advanced_python_2019/venv"
 
 $_OLD_VIRTUAL_PATH = $PATH
 $PATH = $PATH[:]
