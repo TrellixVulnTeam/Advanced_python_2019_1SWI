@@ -40,7 +40,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/rudev/Desktop/Advanced_python_2019/venv"
+VIRTUAL_ENV="/Users/rudevelooper/Desktop/Advanced_python_2019/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
